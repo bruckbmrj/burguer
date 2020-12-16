@@ -5,7 +5,9 @@ import { BebidasComponent } from './bebidas.component';
 
 
 @NgModule({
-  declarations: [BebidasComponent],
+  declarations: [
+    BebidasComponent
+  ],
   imports: [
     CommonModule
   ]
