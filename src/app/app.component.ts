@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'burguer';
+
+  constructor(private router: Router) { }
+
+  getMenuTransparent(){
+    if (this.router.url === '/'){
+      //console.log('estou na home');
+      return "bg-transparent";
+  }
+  return "";
+ }
+
 }
