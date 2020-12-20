@@ -13,7 +13,23 @@ export class ProductsService {
       nome: 'Super Hamburguer',
       descricao: 'Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
       preco: 20.00
+    },
+    { id: 2,
+      marca: 'La Vosier',
+      categoria: 'Bebidas',
+      nome: 'Cubanaca',
+      descricao: 'Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+      preco: 20.00
+    },
+    { id: 3,
+      marca: 'Carolina Herrera',
+      categoria: 'Bebidas',
+      nome: 'Amanhecer',
+      descricao: 'Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+      preco: 25.00
     }
+
+
 
   ];
 
