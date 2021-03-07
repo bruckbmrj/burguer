@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HomeModule } from './pages/home/home.module';
-import { BebidasModule } from './pages/bebidas/bebidas.module';
+import { DrinksModule } from './pages/drinks/drinks.module';
 import { ProductsService } from './services/products.service';
 import { ProductGenericListComponent } from './shared/product-generic-list/product-generic-list.component';
 import { ModalGenericComponent } from './shared/modal-generic/modal-generic.component';
@@ -20,7 +20,7 @@ import { ModalGenericComponent } from './shared/modal-generic/modal-generic.comp
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    BebidasModule
+    DrinksModule
   ],
   providers: [
     ProductsService

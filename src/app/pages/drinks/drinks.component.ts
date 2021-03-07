@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bebidas',
-  templateUrl: './bebidas.component.html',
-  styleUrls: ['./bebidas.component.scss']
+  templateUrl: './drinks.component.html',
+  styleUrls: ['./drinks.component.scss']
 })
-export class BebidasComponent implements OnInit {
+export class DrinksComponent implements OnInit {
 
   constructor() { }
 
