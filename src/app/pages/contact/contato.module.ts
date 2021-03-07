@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LanchesComponent } from './lanches.component';
+import { ContactComponent } from './contact.component';
 
 
 
 @NgModule({
-  declarations: [LanchesComponent],
+  declarations: [ContactComponent],
   imports: [
     CommonModule
   ]
 })
-export class LanchesModule { }
+export class ContactModule { }

@@ -9,6 +9,8 @@ import { DrinksModule } from './pages/drinks/drinks.module';
 import { ProductsService } from './services/products.service';
 import { ProductGenericListComponent } from './shared/product-generic-list/product-generic-list.component';
 import { ModalGenericComponent } from './shared/modal-generic/modal-generic.component';
+import { FoodsModule } from './pages/foods/foods.module';
+import { ContactModule } from './pages/contact/contato.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ModalGenericComponent } from './shared/modal-generic/modal-generic.comp
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    DrinksModule
+    DrinksModule,
+    FoodsModule,
+    ContactModule
   ],
   providers: [
     ProductsService
