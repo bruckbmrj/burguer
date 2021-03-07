@@ -29,8 +29,6 @@ export class ProductsService {
       preco: 25.00
     }
 
-
-
   ];
 
   constructor() { }

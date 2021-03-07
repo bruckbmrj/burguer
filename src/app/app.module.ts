@@ -7,10 +7,14 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './pages/home/home.module';
 import { BebidasModule } from './pages/bebidas/bebidas.module';
 import { ProductsService } from './services/products.service';
+import { ProductGenericListComponent } from './shared/product-generic-list/product-generic-list.component';
+import { ModalGenericComponent } from './shared/modal-generic/modal-generic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProductGenericListComponent,
+    ModalGenericComponent,
   ],
   imports: [
     BrowserModule,
